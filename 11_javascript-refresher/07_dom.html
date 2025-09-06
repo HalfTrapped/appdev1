@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .btn7 {
+            border-color: black;
+            margin: 2em;
+            color: rgb(0, 0, 0);
+
+        }
+    </style>
+</head>
+<body>
+    <button class="btn7" onclick="changeBg()">Click here to subscribe( change background color )</button>
+
+    <p id="favoriteColor"></p>
+
+    <p id="timeoutMessage"></p>
+    <script>
+        function changeBg() {
+            document.body.style.backgroundColor = "slateblue";
+        }
+
+        window.onload = function() {
+        // Ask for favorite color
+        let color = prompt("What is your favorite color?");
+        if (color) {
+            userColor = color; // save chosen color
+            document.getElementById("favoriteColor").innerText = "Your favorite color is: " + color;
+        } else {
+            document.getElementById("favoriteColor").innerText = "You didn't choose a color.";
+        }
+        }
+
+        setTimeout(function(){
+            document.getElementById("timeoutMessage").innerText = "This message is shown after 2 seconds";
+        }, 2000 );
+
+    </script>
+
+
+</body>
+</html>
