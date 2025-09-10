@@ -20,7 +20,7 @@ for(let i = 0; i < 5; i++){
     console.log(`${i}`)
 }
 
-j = 0
+let j = 0
 
 while(j < 3){
     console.log(`Hello`)

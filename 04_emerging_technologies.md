@@ -10,7 +10,7 @@
 
 * Education
 
-    One use of machine learning in education is the use of AI tutor and chatbot. Natural language processing powered tutors and chatbots are used to find learning contents, engage students with activities and quizzes and providing as a personal tutor you can contact anytime. Another is adaptive learning. ML-based predictive data is gathered and analyzwed to adjust learning to the preference of the user.
+    * gOne use of machine learning in education is the use of AI tutor and chatbot. Natural language processing powered tutors and chatbots are used to find learning contents, engage students with activities and quizzes and providing as a personal tutor you can contact anytime. Another is adaptive learning. ML-based predictive data is gathered and analyzwed to adjust learning to the preference of the user.
 
 * IT Industry
 
