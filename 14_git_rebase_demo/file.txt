@@ -1,0 +1,2 @@
+Realization:
+I noticed that it made a branch called eature thats different than main and now after the rebase it made the feature branch as the HEAD commit

@@ -1,0 +1,2 @@
+Realization:
+I realized that it has red line if its on a branch but after the merge its only just master branch
