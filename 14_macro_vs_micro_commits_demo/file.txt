@@ -1,0 +1,2 @@
+Realization:
+Ive realized that putting yur "eggs in one basket" is bad because if you want to revert one file change the other files that were commited alongside for example "bugfix.txt" will be reverted
