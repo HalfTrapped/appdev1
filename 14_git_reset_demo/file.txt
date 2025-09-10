@@ -1,2 +1,5 @@
 line 1
 line 2
+
+Realization:
+I realize that every commit has a unique ID to them and if I reset( in this case a hard reset) it deletes earlier commits
