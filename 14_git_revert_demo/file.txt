@@ -1,3 +1,5 @@
 line 1
 line 2
-line 3
+
+Realization:
+I realize that most current commit is the HEAD/MASTER coommit and if you revert HEAD then it will go back 1 commit earlier 
