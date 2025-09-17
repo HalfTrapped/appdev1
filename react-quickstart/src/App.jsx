@@ -6,8 +6,7 @@ import './App.css'
 function App(){
    return (
     <>
-      <h1>This is a button</h1>
-      <p>This is a markup<br /> wow! space!</p>
+      <h1 style={{fontstyle: 'comic sans', color: 'blue'}}>Hello World!</h1>
     </>
     )
  
