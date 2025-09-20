@@ -3,29 +3,40 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-let content;
-
-if (True) {
-  content = <AdminPanel />;
-} else {
-  content = <LoginForm />;
-}
-
-function AdminPanel() {
-  return <h1>Welcome, Admin!</h1>;
-}
-
-function LoginForm() {
-  return <h1>Please log in to continue.</h1>;
-}
 
 function App(){
-   return (
+
+ const products = [
+  { title: 'Cabbage', id: 1},
+  { title: 'Lettuce', id: 2},
+  { title: 'Tomato', id: 3},
+ ]
+
+ const listItems = products.map(product =>
+  <li key={product.id}>
+    {product.title}
+  </li>
+ )
+
+ return (
+  <>
+  <ul>{listItems}</ul>  
+  </>
+ )
+
+
+  /*return (
     <div>
-      {content}
+      {products.map(product => {
+        <li>(product.title)</li>
+      })}
     </div>
-    )
+  )*/
+    
+  
  
 }
+
+ 
 
 export default App
