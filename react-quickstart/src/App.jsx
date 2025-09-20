@@ -6,24 +6,15 @@ import './App.css'
 
 function App(){
 
- const products = [
-  { title: 'Cabbage', id: 1},
-  { title: 'Lettuce', id: 2},
-  { title: 'Tomato', id: 3},
- ]
-
- const listItems = products.map(product =>
-  <li key={product.id}>
-    {product.title}
-  </li>
- )
+ function handleClick(){
+  alert('click')
+ }
 
  return (
-  <>
-  <ul>{listItems}</ul>  
-  </>
+  <button onClick={handleClick}>
+    Click me
+  </button>
  )
-
 
   /*return (
     <div>
