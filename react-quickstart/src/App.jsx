@@ -3,17 +3,28 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+function MyButton({count, onClick}){
+
+  return (
+    <button onClick={onClick}>
+      You have clicked {count} times
+    </button>
+  )
+}
 
 function App(){
-
- function handleClick(){
-  alert('click')
+  const [count, setCount] = useState(0);
+  
+ function handleClick() {
+   setCount(count + 1);
  }
-
+  
  return (
-  <button onClick={handleClick}>
-    Click me
-  </button>
+  <>
+    <h1> Counters that update separately</h1>
+    <MyButton count={count} onClick = {handleClick}/>
+    <MyButton count={count} onClick = {handleClick}/>
+  </>
  )
 
   /*return (
