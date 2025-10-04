@@ -167,7 +167,7 @@ function App() {
               <div className="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                 <h4>Amazing <em>Services &amp; Features</em> for you</h4>
                 <img src={headingLineDec} alt="Heading Line Decoration" />
-                <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank" rel="noreferrer">TooCSS</a> Blog. If you need to have a contact form PHP script, go to <a href="https://templatemo.com/contact" target="_parent" rel="noreferrer">our contact page</a> for more information.</p>
+                <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow noreferrer" href="https://www.toocss.com/" target="_blank" >TooCSS</a> Blog. If you need to have a contact form PHP script, go to <a href="https://templatemo.com/contact" target="_parent" rel="noreferrer">our contact page</a> for more information.</p>
               </div>
             </div>
           </div>
