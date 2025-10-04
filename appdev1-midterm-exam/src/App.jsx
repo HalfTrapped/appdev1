@@ -3,6 +3,7 @@ import './App.css'
 
 
 function App() {
+  
 
   return (
     <>
@@ -252,19 +253,6 @@ function App() {
           </div>
         </div>
       </div>
-      {/* Continue converting the rest of sections the same way... */}
-      {/* ***** Preloader ***** */}
-      <div id="js-preloader" className="js-preloader">
-        <div className="preloader-inner">
-          <span className="dot"></span>
-          <div className="dots">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
-
       {/* ***** Header ***** */}
       <header
         className="header-area header-sticky wow slideInDown"
@@ -344,7 +332,7 @@ function App() {
             </div>
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
               <div className="service-item">
-                <div className="icon"><img src=" /images/service-icon-02.png" alt="" /></div>
+                <div className="icon"><img src="images/service-icon-02.png" alt="" /></div>
                 <h4>Rocket Speed</h4>
                 <p>Fast loading apps with smooth performance.</p>
               </div>
@@ -358,7 +346,7 @@ function App() {
             </div>
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
               <div className="service-item">
-                <div className="icon"><img src=" /images/service-icon-04.png" alt="" /></div>
+                <div className="icon"><img src="images/service-icon-04.png" alt="" /></div>
                 <h4>24/7 Support</h4>
                 <p>Always here to assist you with any issues.</p>
               </div>
