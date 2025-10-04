@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -31,7 +31,7 @@ function App() {
               <nav className="main-nav">
                 {/* ***** Logo Start ***** */}
                 <a href="index.html" className="logo">
-                  <img src="assets/images/logo.png" alt="Chain App Dev" />
+                  <img src="images/logo.png" alt="Chain App Dev" />
                 </a>
                 {/* ***** Logo End ***** */}
                 {/* ***** Menu Start ***** */}
@@ -244,7 +244,7 @@ function App() {
                     data-wow-duration="1s"
                     data-wow-delay="0.5s"
                   >
-                    <img src="assets/images/slider-dec.png" alt="slider" />
+                    <img src="images/slider-dec.png" alt="slider" />
                   </div>
                 </div>
               </div>
@@ -276,7 +276,7 @@ function App() {
             <div className="col-12">
               <nav className="main-nav">
                 <a href="#top" className="logo">
-                  <img src="assets/images/logo.png" alt="Chain App Dev" />
+                  <img src="images/logo.png" alt="Chain App Dev" />
                 </a>
                 <ul className="nav">
                   <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
@@ -317,7 +317,7 @@ function App() {
             </div>
             <div className="col-lg-6">
               <div className="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/slider-dec.png" alt="slider" />
+                <img src="images/slider-dec.png" alt="slider" />
               </div>
             </div>
           </div>
@@ -331,34 +331,34 @@ function App() {
             <div className="col-lg-12">
               <div className="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                 <h4>Amazing <em>Services</em> &amp; Features</h4>
-                <img src="assets/images/heading-line-dec.png" alt="" />
+                <img src=" /images/heading-line-dec.png" alt="" />
                 <p>Check out the services we provide for our customers.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
               <div className="service-item">
-                <div className="icon"><img src="assets/images/service-icon-01.png" alt="" /></div>
+                <div className="icon"><img src="images/service-icon-01.png" alt="" /></div>
                 <h4>App Maintenance</h4>
                 <p>Keep your app updated and bug-free.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
               <div className="service-item">
-                <div className="icon"><img src="assets/images/service-icon-02.png" alt="" /></div>
+                <div className="icon"><img src=" /images/service-icon-02.png" alt="" /></div>
                 <h4>Rocket Speed</h4>
                 <p>Fast loading apps with smooth performance.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
               <div className="service-item">
-                <div className="icon"><img src="assets/images/service-icon-03.png" alt="" /></div>
+                <div className="icon"><img src=" /images/service-icon-03.png" alt="" /></div>
                 <h4>Best Security</h4>
                 <p>Your data and apps are fully secured with us.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
               <div className="service-item">
-                <div className="icon"><img src="assets/images/service-icon-04.png" alt="" /></div>
+                <div className="icon"><img src=" /images/service-icon-04.png" alt="" /></div>
                 <h4>24/7 Support</h4>
                 <p>Always here to assist you with any issues.</p>
               </div>
@@ -372,12 +372,12 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/images/about-left-image.png" alt="About" />
+              <img src=" /images/about-left-image.png" alt="About" />
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="section-heading wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                 <h4>About <em>Our Company</em></h4>
-                <img src="assets/images/heading-line-dec.png" alt="" />
+                <img src=" /images/heading-line-dec.png" alt="" />
                 <p>We build and design modern web & mobile applications.</p>
               </div>
             </div>
@@ -390,12 +390,12 @@ function App() {
         <div className="container">
           <h4>Our <em>Happy Clients</em></h4>
           <div className="row">
-            <div className="col-lg-2 col-4"><img src="assets/images/client-01.png" alt="client" /></div>
-            <div className="col-lg-2 col-4"><img src="assets/images/client-02.png" alt="client" /></div>
-            <div className="col-lg-2 col-4"><img src="assets/images/client-03.png" alt="client" /></div>
-            <div className="col-lg-2 col-4"><img src="assets/images/client-04.png" alt="client" /></div>
-            <div className="col-lg-2 col-4"><img src="assets/images/client-05.png" alt="client" /></div>
-            <div className="col-lg-2 col-4"><img src="assets/images/client-06.png" alt="client" /></div>
+            <div className="col-lg-2 col-4"><img src=" /images/client-01.png" alt="client" /></div>
+            <div className="col-lg-2 col-4"><img src=" /images/client-02.png" alt="client" /></div>
+            <div className="col-lg-2 col-4"><img src=" /images/client-03.png" alt="client" /></div>
+            <div className="col-lg-2 col-4"><img src=" /images/client-04.png" alt="client" /></div>
+            <div className="col-lg-2 col-4"><img src=" /images/client-05.png" alt="client" /></div>
+            <div className="col-lg-2 col-4"><img src=" /images/client-06.png" alt="client" /></div>
           </div>
         </div>
       </section>
@@ -405,7 +405,7 @@ function App() {
         <div className="container">
           <div className="section-heading">
             <h4>Choose <em>Pricing</em> Plan</h4>
-            <img src="assets/images/heading-line-dec.png" alt="" />
+            <img src=" /images/heading-line-dec.png" alt="" />
           </div>
           <div className="row">
             <div className="col-lg-4"><div className="pricing-item"><h4>Basic</h4><p>$19/month</p></div></div>
