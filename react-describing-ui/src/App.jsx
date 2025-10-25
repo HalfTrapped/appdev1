@@ -6,10 +6,14 @@ export default function App() {
   return (
     <>
     <section>
-      <h1>Amazing Scientist</h1>
+      <h1>Hedy Lamarr's Todos</h1>
       <Profile />
-      <Profile />
-      <Profile />
+      <ul>
+        <li>Invent new traffic lights</li>
+        <li>Rehearse a movie scene</li>
+        <li>Improve spectrum technology</li>
+      </ul>
+
     </section>
     </>
   )
