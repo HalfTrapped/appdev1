@@ -1,24 +1,16 @@
 import './App.css'
+import Profile from './component/Profile'
 
-function App() {
+export default function App() {
 
   return (
     <>
-      <img 
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-      />
+    <section>
+      <h1>Amazing Scientist</h1>
+      <Profile />
+      <Profile />
+      <Profile />
+    </section>
     </>
   )
-}
-
-export default function Gallery() {
-  return(
-    <section>
-    <h1>Amazing Scientist</h1>
-    <App />
-    <App />
-    <App />
-    </section>
-  );
 }
