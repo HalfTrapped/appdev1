@@ -1,11 +1,24 @@
-import './App.css'
-import Profile from './component/Profile'
-import {getImageUrl} from './component/utils'
+import { people } from './component/data.jsx';
+import { getImageUrl } from './component/utils.jsx';
 
-export default function App() {
+export default function List() {
+  const listItems = people.map(person =>
+    <li key={person.id}>
+      <img
+        src={getImageUrl(person)}
+        alt={person.name}
+      />
+      <p>
+        <b>{person.name}:</b>
+        {' ' + person.profession + ' '}
+        known for {person.accomplishment}
+      </p>
+    </li>
+  );
   return (
-    <div>
-      <Profile />
-    </div>
-  )
+    <article>
+      <h1>Scientists</h1>
+      <ul>{listItems}</ul>
+    </article>
+  );
 }
