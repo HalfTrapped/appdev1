@@ -11,6 +11,12 @@ import quoteImage from './assets/images/quote.png';
 import clientImage from './assets/images/client-image.jpg';
 
 function App() {
+  const [toggleModal, setToggleModal] = useState(false);
+
+  function handleToggleModal() {
+    setToggleModal(!toggleModal);
+  }
+
   return (
     <>
       {/* Preloader */}
