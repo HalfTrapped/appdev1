@@ -3,19 +3,23 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+const today = new Date();
+
+function formatDate(date) {
+  return new Intl.DateTimeFormat(
+    'en-US',
+    { weekday: 'long' }
+  ).format(date);
+}
+
 
 function App() {
-  const avatar = "https://i.imgur.com/7vQD0fPs.jpg"
-  const description = "Gregorio Y. Zara"
+  const name = "Gregorio Y. Zara"
   return (
     <>
-      <img
-        className = "avatar"
-        src = {avatar}
-        alt = {description}
-      />
+      <h1>To Do List for {formatDate(today)}</h1>
     </>
-  )
+  );
 }
 
 export default App
