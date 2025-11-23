@@ -21,6 +21,13 @@ function UsersFetch() {
         });
       }, []);
 
+      if(loading) {
+        return 
+        <>
+          <p>Loading user data...please wait</p>;
+        </>
+      }
+
   return (
     <>
       <h2>Users Info</h2>
