@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, setError } from 'react'
+import axios from 'axios';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -6,25 +7,24 @@ import './App.css'
 function UsersFetch() {
     const [users, setUsers] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
         const fetchusers = async () => {
             try {
-                const response = await 
-                fetch("https://jsonplaceholder.typicode.com/users?_limit=5")
-                const data = await response.json();
-                setUsers(data);
-            } 
-            catch (error) {
-                console.error("Error user info:", error);
+                const response = await axios.get(
+                  "https://jsonplaceholder.typicode.com/todos?_limit=5"
+                );
+                setTodos(response.data);
+              } catch (err) {
+                console.error("Error fetching user info:", err);
+                setError("Failed to fetch user info");
               } finally {
                 setLoading(false);
               }
+            };
         
-        };
-
         fetchusers();
-
     }, []);
 
       if(loading) {
