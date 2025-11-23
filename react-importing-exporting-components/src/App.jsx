@@ -1,4 +1,4 @@
-import Gallery from './component/profile.jsx';
+import { Profile } from './component/Gallery.jsx';
 
 export default function App() {
   return (
